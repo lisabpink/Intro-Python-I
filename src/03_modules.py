@@ -9,6 +9,9 @@ import os
 import sys
 # See docs for the sys module: https://docs.python.org/3.7/library/sys.html
 
+#!sys. argv is a list in Python, which contains the command-line arguments passed to the script.
+#! With the len(sys. argv) function you can count the number of arguments.
+
 # Print out the command line arguments in sys.argv, one per line:
 # YOUR CODE HERE
 print('__SYS__')

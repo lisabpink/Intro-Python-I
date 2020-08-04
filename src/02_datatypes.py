@@ -21,3 +21,10 @@ print("ITS WORKING! x + y into the integer value 12\n", x+int(y))
 # YOUR CODE HERE
 
 print("ITS WORKING! x + y into the string value 57\n", str(x)+y)
+
+print(x*y)
+
+myfloat = 20
+print(myfloat)
+myfloat = float(50)
+print(myfloat)

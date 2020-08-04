@@ -41,16 +41,26 @@ class Geocache(Waypoint):
                                                      self.lat,
                                                      self.lon))
     pass
+
+
 # Make a new waypoint and print it out: "Catacombs", 41.70505, -121.51521
-
-
 # YOUR CODE HERE
 waypoint = Waypoint(41.70505, -121.51521, 'Catacombs')
 print(waypoint)
 
 # Without changing the following line, how can you make it print into something
 # more human-readable? Hint: Look up the `object.__str__` method
-print(waypoint)
+
+#!This method must return the String object.
+#! If we don’t implement __str__() function for a class,
+# !then built-in object implementation is used that actually calls __repr__() function.
+
+#! Python __repr__() function returns the object representation.
+#! It could be any valid python expression such as tuple, dictionary, string etc.
+
+str(waypoint)
+print('__STR__', waypoint.__str__())
+print('__REPR__', waypoint.__repr__())
 
 # Make a new geocache "Newberry Views", diff 1.5, size 2, 44.052137, -121.41556
 

@@ -27,6 +27,9 @@ print out a calendar for April in 2015, but if you omit either the year or both 
 it should use today’s date to get the month and year.
 """
 
+#!sys. argv is a list in Python, which contains the command-line arguments passed to the script.
+#! With the len(sys. argv) function you can count the number of arguments.
+
 import sys
 import calendar
 from datetime import datetime
