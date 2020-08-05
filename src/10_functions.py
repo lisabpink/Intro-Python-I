@@ -1,6 +1,10 @@
 # Write a function is_even that will return true if the passed-in number is even.
 
 # YOUR CODE HERE
+
+# The modulus operator, sometimes also called the remainder operator or integer remainder operator
+# works on integers (and integer expressions) and yields the remainder when the first operand is divided by the second.
+# In Python, the modulus operator is a percent sign ( % )
 def is_even(x):
     if (num % 2) == 0:
         return True

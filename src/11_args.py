@@ -16,6 +16,11 @@ print(f1(1, 2))
 # sum.
 # Note: Google for "python arbitrary arguments" and look for "*args"
 
+# Python allows us to have the arbitrary number of arguments.
+# This is especially useful when we are not sure in the advance that how many arguments,
+# the function would require.
+# We define the arbitrary arguments while defining a function using the asterisk (*) sign.
+
 # YOUR CODE HERE
 
 

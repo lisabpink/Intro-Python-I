@@ -19,6 +19,12 @@ print(foo.read())
 # then close the file. Open up "bar.txt" and inspect it to make
 # sure that it contains what you expect it to contain
 
+#! %d is used as a placeholder for numeric or decimal values.
+#! This line of code will substitute %s with Alice (str) and %d with 42.
+#! The %d and %s string formatting "commands" are used to format strings.
+# !The %d is for numbers, and %s is for strings.
+#! A carriage return means moving the cursor to the beginning of the line. The code is \r .
+
 # YOUR CODE HERE
 bar = open("bar.txt", "w+")
 for n in range(3):

@@ -13,7 +13,7 @@ def change_x():
 x = change_x()
 
 # This prints 12. What do we have to modify in change_x() to get it to print 99?
-print('First problem:')
+print('\nFirst problem: Outter')
 print(x)
 
 
@@ -31,8 +31,9 @@ def outer():
     # This prints 120. What do we have to change in inner() to get it to print
     # 999?
     # Note: Google "python nested function scope".
+    # Create a function using def inside another function to nest two functions.
     print(y)
 
 
-print('Second problem:')
+print('\nSecond problem: Inner')
 outer()
